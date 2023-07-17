@@ -1,0 +1,12 @@
+[32mINFO    [0m HomeNavigation:selenium_driver.py:149 Element found with locator: //a[contains(text(),'Login')] and locatorType: xpath
+[32mINFO    [0m HomeNavigation:selenium_driver.py:197 clicked on element with locator: //a[contains(text(),'Login')] locatorType: xpath
+[32mINFO    [0m TestStatus:teststatus.py:24 ### VERIFICATION SUCCESSFUL :: navigation to login page failed
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:152 Element not found with locator: //input[@id='user_email'] and locatorType: xpath
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:234 cannot send data on the element with locator: //input[@id='user_email'] locatorType: xpath
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:152 Element not found with locator: //input[@id='user_password'] and locatorType: xpath
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:234 cannot send data on the element with locator: //input[@id='user_password'] locatorType: xpath
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:152 Element not found with locator: //input[@value='Log In'] and locatorType: xpath
+[1m[31mERROR   [0m LoginPage:selenium_driver.py:200 cannot click on the element with locator: //input[@value='Log In'] locatorType: xpath
+[32mINFO    [0m LoggedInPage:selenium_driver.py:178 Element list found with locator: //input[@id='search-courses'] and locatorType: xpath
+[1m[31mERROR   [0m TestStatus:teststatus.py:27 ### VERIFICATION FAILED :: login failed
+[32mINFO    [0m TestStatus:selenium_driver.py:42 Screenshot save to directory: D:\Python Frameworks selenium\Python-Test-Automation-Framework\base\../screenshots/login failed.1686467989569.png
